@@ -206,17 +206,16 @@ search_finish = False
 # Used to manage how fast the screen updates
 clock = pygame.time.Clock()
 
-
 def search_helper():
-    type_of_search = int(input("For Uniform Search, type 1.\nFor greedy best search, type 2.\nFor A*, type 3.\n"))
+    type_of_search = int(input("For A* with random heuristic, type 1.\nFor greedy best search, type 2.\nFor A*, type 3.\n"))
     if type_of_search == 3:
         h = lambda x, y: abs(x_goal - x) + abs(y_goal - y)
         scale = 1
     elif type_of_search == 2:
         h = lambda x, y: abs(x_goal - x) + abs(y_goal - y)
         scale = 0
-    else:
-        h = lambda x, y: 0
+    elif type_of_search == 1:
+        h = lambda x, y: np.random.randint(100,size = 1)[0]
         scale = 1
     while not frontier.empty():
         pygame.event.get()
