@@ -207,8 +207,12 @@ search_finish = False
 clock = pygame.time.Clock()
 
 def search_helper():
-    type_of_search = int(input("For A* with random heuristic, type 1.\nFor greedy best search, type 2.\nFor A*, type 3.\n"))
-    if type_of_search == 3:
+    message = "For A* with random heuristic, type 1.\nFor greedy best search, type 2.\nFor A* with Manhattan heuristic, type 3.\nfor uniform cost search, type 4.\n"
+    type_of_search = int(input(message))
+    if type_of_search == 4:
+        h = lambda x, y: 0
+        scale = 1
+    elif type_of_search == 3:
         h = lambda x, y: abs(x_goal - x) + abs(y_goal - y)
         scale = 1
     elif type_of_search == 2:
