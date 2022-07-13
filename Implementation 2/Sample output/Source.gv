@@ -1,0 +1,283 @@
+
+digraph G {
+compound=true;
+   node1 [label="Glucose
+Gain: 0.13710413001130484
+[218.0/396.0]"];
+   node2 [label="Insulin
+Gain: 0.049056440329022344
+[63.0/17.0]"];
+   node3 [label="Age
+Gain: 0.08616905071484426
+[40.0/12.0]"];
+   node4 [label="1
+Entropy: 0.4689955935892811
+[18.0/2.0]"];
+   node5 [label="1
+Entropy: 0.8366407419411672
+[11.0/4.0]"];
+   node6 [label="1
+Entropy: 0.7219280948873623
+[8.0/2.0]"];
+   node7 [label="0
+Entropy: 0.9852281360342515
+[3.0/4.0]"];
+   node8 [label="BMI
+Gain: 0.28726525688988197
+[15.0/2.0]"];
+   node9 [label="1
+Entropy: 0
+[13.0/0.0]"];
+   node10 [label="0
+Entropy: 1.0
+[2.0/2.0]"];
+   node11 [label="1
+Entropy: 0
+[3.0/0.0]"];
+   node12 [label="SkinThickness
+Gain: 0.7219280948873623
+[4.0/1.0]"];
+   node13 [label="0
+Entropy: 0
+[0.0/1.0]"];
+   node14 [label="1
+Entropy: 0
+[4.0/0.0]"];
+   node15 [label="Age
+Gain: 0.9182958340544896
+[1.0/2.0]"];
+   node16 [label="0
+Entropy: 0
+[0.0/2.0]"];
+   node17 [label="1
+Entropy: 0
+[1.0/0.0]"];
+   node18 [label="BMI
+Gain: 0.08409180557235885
+[60.0/231.0]"];
+   node19 [label="Pregnancies
+Gain: 0.06417835359607116
+[47.0/133.0]"];
+   node20 [label="0
+Entropy: 0.954434002924965
+[3.0/5.0]"];
+   node21 [label="0
+Entropy: 0.863120568566631
+[14.0/35.0]"];
+   node22 [label="0
+Entropy: 0.6460174789535751
+[16.0/81.0]"];
+   node23 [label="1
+Entropy: 0.9988455359952018
+[13.0/12.0]"];
+   node24 [label="1
+Entropy: 0
+[1.0/0.0]"];
+   node25 [label="Pregnancies
+Gain: 0.018985006456963716
+[2.0/79.0]"];
+   node26 [label="0
+Entropy: 0.13503620280212764
+[1.0/52.0]"];
+   node27 [label="0
+Entropy: 0.4394969869215134
+[1.0/10.0]"];
+   node28 [label="0
+Entropy: 0
+[0.0/16.0]"];
+   node29 [label="0
+Entropy: 0
+[0.0/1.0]"];
+   node30 [label="BloodPressure
+Gain: 0.21665225367963103
+[9.0/15.0]"];
+   node31 [label="1
+Entropy: 0.9182958340544896
+[2.0/1.0]"];
+   node32 [label="0
+Entropy: 0.9967916319816366
+[7.0/8.0]"];
+   node33 [label="0
+Entropy: 0
+[0.0/6.0]"];
+   node34 [label="Pregnancies
+Gain: 0.3219280948873623
+[1.0/4.0]"];
+   node35 [label="0
+Entropy: 1.0
+[1.0/1.0]"];
+   node36 [label="0
+Entropy: 0
+[0.0/3.0]"];
+   node37 [label="1
+Entropy: 0
+[1.0/0.0]"];
+   node38 [label="BMI
+Gain: 0.06120540795404117
+[92.0/119.0]"];
+   node39 [label="Age
+Gain: 0.03361777938588384
+[65.0/75.0]"];
+   node40 [label="1
+Entropy: 0.9182958340544896
+[10.0/5.0]"];
+   node41 [label="0
+Entropy: 0.954434002924965
+[24.0/40.0]"];
+   node42 [label="1
+Entropy: 0
+[1.0/0.0]"];
+   node43 [label="1
+Entropy: 0.9996995428565171
+[25.0/24.0]"];
+   node44 [label="0
+Entropy: 0.9940302114769565
+[5.0/6.0]"];
+   node45 [label="DiabetesPedigreeFunction
+Gain: 0.1768457304194586
+[19.0/11.0]"];
+   node46 [label="1
+Entropy: 0.8997437586982626
+[13.0/6.0]"];
+   node47 [label="1
+Entropy: 0
+[1.0/0.0]"];
+   node48 [label="1
+Entropy: 0.863120568566631
+[5.0/2.0]"];
+   node49 [label="0
+Entropy: 0
+[0.0/1.0]"];
+   node50 [label="0
+Entropy: 0
+[0.0/2.0]"];
+   node51 [label="Insulin
+Gain: 0.037327610214767715
+[6.0/31.0]"];
+   node52 [label="0
+Entropy: 0
+[0.0/4.0]"];
+   node53 [label="0
+Entropy: 0.6962122601251458
+[6.0/26.0]"];
+   node54 [label="0
+Entropy: 0
+[0.0/1.0]"];
+   node55 [label="SkinThickness
+Gain: 1.0
+[1.0/1.0]"];
+   node56 [label="0
+Entropy: 0
+[0.0/1.0]"];
+   node57 [label="1
+Entropy: 0
+[1.0/0.0]"];
+   node58 [label="Pregnancies
+Gain: 1.0
+[1.0/1.0]"];
+   node59 [label="1
+Entropy: 0
+[1.0/0.0]"];
+   node60 [label="0
+Entropy: 0
+[0.0/1.0]"];
+   node61 [label="SkinThickness
+Gain: 0.049625300109379156
+[1.0/27.0]"];
+   node62 [label="BloodPressure
+Gain: 0.11134785288180327
+[1.0/10.0]"];
+   node63 [label="0
+Entropy: 0
+[0.0/1.0]"];
+   node64 [label="0
+Entropy: 0.7219280948873623
+[1.0/4.0]"];
+   node65 [label="0
+Entropy: 0
+[0.0/5.0]"];
+   node66 [label="0
+Entropy: 0
+[0.0/15.0]"];
+   node67 [label="0
+Entropy: 0
+[0.0/2.0]"];
+   node68 [label="Pregnancies
+Gain: 1.0
+[2.0/2.0]"];
+   node69 [label="1
+Entropy: 0
+[2.0/0.0]"];
+   node70 [label="0
+Entropy: 0
+[0.0/2.0]"];
+node1->node2 [color="darkblue",label="159.2 <= x <= 199.0"];
+node1->node18 [color="darkblue",label="79.6 <= x <= 119.4"];
+node1->node38 [color="darkblue",label="119.4 <= x <= 159.2"];
+node1->node61 [color="darkblue",label="39.8 <= x <= 79.6"];
+node1->node68 [color="darkblue",label="-0.2 <= x <= 39.8"];
+node2->node3 [color="darkblue",label="-0.85 <= x <= 169.2"];
+node2->node8 [color="darkblue",label="169.2 <= x <= 338.4"];
+node2->node11 [color="darkblue",label="507.6 <= x <= 676.8"];
+node2->node12 [color="darkblue",label="338.4 <= x <= 507.6"];
+node2->node15 [color="darkblue",label="676.8 <= x <= 846.0"];
+node3->node4 [color="darkblue",label="20.94 <= x <= 33.0"];
+node3->node5 [color="darkblue",label="33.0 <= x <= 45.0"];
+node3->node6 [color="darkblue",label="45.0 <= x <= 57.0"];
+node3->node7 [color="darkblue",label="57.0 <= x <= 69.0"];
+node8->node9 [color="darkblue",label="26.84 <= x <= 40.26"];
+node8->node10 [color="darkblue",label="40.26 <= x <= 53.68"];
+node12->node13 [color="darkblue",label="-0.1 <= x <= 19.8"];
+node12->node14 [color="darkblue",label="19.8 <= x <= 39.6"];
+node15->node16 [color="darkblue",label="20.94 <= x <= 33.0"];
+node15->node17 [color="darkblue",label="57.0 <= x <= 69.0"];
+node18->node19 [color="darkblue",label="26.84 <= x <= 40.26"];
+node18->node25 [color="darkblue",label="13.42 <= x <= 26.84"];
+node18->node30 [color="darkblue",label="40.26 <= x <= 53.68"];
+node18->node34 [color="darkblue",label="-0.07 <= x <= 13.42"];
+node18->node37 [color="darkblue",label="53.68 <= x <= 67.1"];
+node19->node20 [color="darkblue",label="10.2 <= x <= 13.6"];
+node19->node21 [color="darkblue",label="3.4 <= x <= 6.8"];
+node19->node22 [color="darkblue",label="-0.02 <= x <= 3.4"];
+node19->node23 [color="darkblue",label="6.8 <= x <= 10.2"];
+node19->node24 [color="darkblue",label="13.6 <= x <= 17.0"];
+node25->node26 [color="darkblue",label="-0.02 <= x <= 3.4"];
+node25->node27 [color="darkblue",label="6.8 <= x <= 10.2"];
+node25->node28 [color="darkblue",label="3.4 <= x <= 6.8"];
+node25->node29 [color="darkblue",label="10.2 <= x <= 13.6"];
+node30->node31 [color="darkblue",label="97.6 <= x <= 122.0"];
+node30->node32 [color="darkblue",label="73.2 <= x <= 97.6"];
+node30->node33 [color="darkblue",label="48.8 <= x <= 73.2"];
+node34->node35 [color="darkblue",label="6.8 <= x <= 10.2"];
+node34->node36 [color="darkblue",label="-0.02 <= x <= 3.4"];
+node38->node39 [color="darkblue",label="26.84 <= x <= 40.26"];
+node38->node45 [color="darkblue",label="40.26 <= x <= 53.68"];
+node38->node51 [color="darkblue",label="13.42 <= x <= 26.84"];
+node38->node55 [color="darkblue",label="53.68 <= x <= 67.1"];
+node38->node58 [color="darkblue",label="-0.07 <= x <= 13.42"];
+node39->node40 [color="darkblue",label="45.0 <= x <= 57.0"];
+node39->node41 [color="darkblue",label="20.94 <= x <= 33.0"];
+node39->node42 [color="darkblue",label="69.0 <= x <= 81.0"];
+node39->node43 [color="darkblue",label="33.0 <= x <= 45.0"];
+node39->node44 [color="darkblue",label="57.0 <= x <= 69.0"];
+node45->node46 [color="darkblue",label="0.08 <= x <= 0.55"];
+node45->node47 [color="darkblue",label="1.95 <= x <= 2.42"];
+node45->node48 [color="darkblue",label="0.55 <= x <= 1.01"];
+node45->node49 [color="darkblue",label="1.48 <= x <= 1.95"];
+node45->node50 [color="darkblue",label="1.01 <= x <= 1.48"];
+node51->node52 [color="darkblue",label="169.2 <= x <= 338.4"];
+node51->node53 [color="darkblue",label="-0.85 <= x <= 169.2"];
+node51->node54 [color="darkblue",label="338.4 <= x <= 507.6"];
+node55->node56 [color="darkblue",label="19.8 <= x <= 39.6"];
+node55->node57 [color="darkblue",label="39.6 <= x <= 59.4"];
+node58->node59 [color="darkblue",label="6.8 <= x <= 10.2"];
+node58->node60 [color="darkblue",label="3.4 <= x <= 6.8"];
+node61->node62 [color="darkblue",label="19.8 <= x <= 39.6"];
+node61->node66 [color="darkblue",label="-0.1 <= x <= 19.8"];
+node61->node67 [color="darkblue",label="39.6 <= x <= 59.4"];
+node62->node63 [color="darkblue",label="97.6 <= x <= 122.0"];
+node62->node64 [color="darkblue",label="48.8 <= x <= 73.2"];
+node62->node65 [color="darkblue",label="73.2 <= x <= 97.6"];
+node68->node69 [color="darkblue",label="3.4 <= x <= 6.8"];
+node68->node70 [color="darkblue",label="-0.02 <= x <= 3.4"];
+}
