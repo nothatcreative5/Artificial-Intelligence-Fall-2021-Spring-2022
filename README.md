@@ -8,8 +8,20 @@ Implementing the A* search algorithm with GUI.
 
 ### Required Libraries.
 ```bash
-pip install numpy
-py -m pip install -U pygame --user
+numpy
+pygame 
+```
+
+## Implementation 2
+
+Drawing a Decision Tree for the Diabetes Data Set With both Gini and Information Gain measures.
+
+### Required Libraries.
+```bash
+pandas
+numpy
+gvgen
+graphviz
 ```
 
 ## License
