@@ -26,7 +26,7 @@ graphviz
 
 ## Implementation 3
 
-Binary classification using SVM and classifying persian digits from pictures of license plates.
+Binary classification using SVM and classifying persian digits from license plates.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
